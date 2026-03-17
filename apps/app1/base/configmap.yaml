@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-env
+data:
+  ASPNETCORE_ENVIRONMENT: "Local"
+  TEST_VAR: "LocalVar"
