@@ -20,5 +20,3 @@ spec:
           envFrom:
           - configMapRef:
               name: app-env
-          - configMapRef:
-              name: app1-config
